@@ -8,3 +8,5 @@ W[x, y] = f(W[x-1, y], W[x, y-1]) if ((x > 0) && (y > 0))
 Since W[2, 2] depends on W[2,1] and W[1,2], W[2,2] cannot be computed until W[2,1] and W[2,2] are computed. Thus, the computation travels in a “wavefront” which is a diagonal along the matrix.
 
 The code here use shared memory to solve the problem
+
+Compile in Ubuntu using command 
