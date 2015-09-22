@@ -10,3 +10,4 @@ Since W[2, 2] depends on W[2,1] and W[1,2], W[2,2] cannot be computed until W[2,
 The code here use shared memory to solve the problem
 
 Compile in Ubuntu using command 
+gcc -o shareMemory -fopenmp shared.c
